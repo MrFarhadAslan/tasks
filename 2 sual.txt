@@ -1,0 +1,53 @@
+C#
+
+	    int[] ededler = { 10, 23, 77,29,49 };
+
+            for (int i = 0; i < ededler.Length; i++)
+            {
+                int count = 0;
+                for (int k = 0; k < ededler.Length; k++)
+                {
+                    if (ededler[i] > ededler[k])
+                    {
+                        count+=1;
+                        
+                    }
+                    
+                }
+                if (count == ededler.Length -1)
+                {
+                    Console.WriteLine("En boyuk eded " + ededler[i]);
+                    break;
+                }
+
+            }
+
+
+JS
+
+
+<script>
+        const ededler=[10,23,77,29,49];
+
+        for (let i = 0; i < ededler.length; i++)
+            {
+                var count = 0;
+                for (let k = 0; k < ededler.length; k++)
+                {
+                    if (ededler[i] > ededler[k])
+                    {
+                        count+=1;
+                        
+                    }
+                    
+                }
+                if (count == ededler.length -1)
+                {
+                    console.log("En boyuk eded ", ededler[i]);
+                    break;
+                }
+
+            }
+
+    </script>
+

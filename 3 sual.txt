@@ -1,0 +1,45 @@
+var machine=[
+            {
+                brand:"BMW",
+                model:"M4",
+                color:"White",
+                year:2020,
+
+            },
+            {
+                brand:"Mersedes",
+                model:"c klass",
+                color:"black",
+                year:2011,
+
+            },
+            {
+                brand:"Vaz2107",
+                model:".",
+                color:"black",
+                year:2004,
+
+            },
+            {
+                brand:"Toyota",
+                model:"Camry",
+                color:"White",
+                year:2014,
+
+            },
+            {
+                brand:"Toyota",
+                model:"Supra",
+                color:"Yellow",
+                year:2009,
+
+            }
+        ]
+        for(var i = 0; i <machine.length; i++)
+        {
+            if(machine[i].year>2010){
+                console.log(machine[i].brand);
+            }
+            
+            
+        }

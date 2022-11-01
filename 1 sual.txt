@@ -1,0 +1,31 @@
+C# 
+
+int toplam = 0;
+            int[] ededler = { -4, -1, 3, 4, 6, 12, 14, 18, 36, 41 };
+
+            for (int i = 0; i < ededler.Length; i++)
+            {
+                if (ededler[i] > 0 && ededler[i] % 6 == 0)
+                {
+                    Console.WriteLine(ededler[i]);
+                    toplam += ededler[i];
+
+                }
+
+            }
+            Console.WriteLine("ededlerin toplami "+toplam);
+
+
+JS
+
+var toplam=0;
+        const ededler=[-4,-1,3,4,6,12,14,18,36,41];
+        for(let i=0; i<ededler.length; i++)
+        {
+            if(ededler[i]>0 && ededler[i]%6==0){
+                console.log(ededler[i]);
+                toplam+=ededler[i];
+            }
+
+        }console.log("Ededlerin toplami ",toplam)
+
